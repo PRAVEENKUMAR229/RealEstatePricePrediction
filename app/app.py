@@ -2,13 +2,17 @@ import streamlit as st
 import pickle
 import json
 import numpy as np
+import os
+
+# Dynamic path that works both locally and on Streamlit Cloud
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Load the model
-with open("../models/best_model.pkl", "rb") as f:
+with open(os.path.join(base_dir, "models", "best_model.pkl"), "rb") as f:
     model = pickle.load(f)
 
 # Load the columns
-with open("../models/columns.json", "r") as f:
+with open(os.path.join(base_dir, "models", "columns.json"), "r") as f:
     data_columns = json.load(f)["data_columns"]
 
 # Get location names
