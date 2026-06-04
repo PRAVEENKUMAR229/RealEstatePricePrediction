@@ -164,7 +164,7 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-🔗 https://your-streamlit-app-url.streamlit.app
+🔗 [https://your-streamlit-app-url.streamlit.app](https://realestatepriceprediction-5rw7n8nx36hluhqm6nqepb.streamlit.app/)
 
 ## 📦 Libraries Used
 - Pandas, Numpy — Data Manipulation
