@@ -1,0 +1,4 @@
+Model,Train Score,Test Score,CV Mean Score,CV Std
+Linear Regression,0.8654,0.9216,0.9026,0.0363
+Decision Tree,1.0,0.7418,0.9028,0.1052
+Lasso,0.845,0.9081,0.8904,0.0419
